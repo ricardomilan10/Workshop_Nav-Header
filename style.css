@@ -87,3 +87,39 @@ body{
     top: 80px;
     padding: 100px 0;
 }
+
+.hero .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-text h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.hero-text h1{
+   font-size: 100px; 
+   font-weight: 800;
+   line-height: 1;
+   color: var(--color-primary);
+}
+.hero-img img {
+  max-width: 100%;  
+  width: 2000px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
